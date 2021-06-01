@@ -3,6 +3,7 @@ import eventModel from './eventModel.js';
 import { PRESENTATION_TYPE } from '../_common/constants.js';
 
 const { Schema } = mongoose;
+const { ObjectId } = mongoose;
 
 const registrationSchema = new Schema({
     createdAt: Number,

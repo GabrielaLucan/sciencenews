@@ -1,6 +1,6 @@
 import lodash from 'lodash';
 const { pick } = lodash;
-import * as service from './taskService';
+import * as service from './taskService.js';
 import { ALL_TASK_STATUSES } from '../_common/constants.js';
 
 

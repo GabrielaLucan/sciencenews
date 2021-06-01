@@ -1,6 +1,6 @@
 import lodash from 'lodash';
 const { pick } = lodash;
-import * as service from './teamService';
+import * as service from './teamService.js';
 
 export async function listTeams(req, res, next) {
     try {

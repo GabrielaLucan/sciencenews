@@ -3,6 +3,7 @@ import userModel from '../users/userModel.js';
 import { ALL_TEAM_MEMBERS_ROLES } from '../_common/constants.js';
 
 const { Schema } = mongoose;
+const { ObjectId } = mongoose;
 
 export const teamMemberSchema = new Schema({
     role: {

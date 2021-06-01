@@ -3,6 +3,7 @@ import userModel from '../users/userModel.js';
 import { ALL_AREA_OF_INTEREST } from '../_common/constants.js';
 
 const { Schema } = mongoose;
+const { ObjectId } = mongoose;
 
 const eventSchema = new Schema({
     createdAt: Number,

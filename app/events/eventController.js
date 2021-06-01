@@ -1,5 +1,5 @@
 import lodash from 'lodash';
-import * as service from './eventService';
+import * as service from './eventService.js';
 const { pick } = lodash;
 
 export async function listEvents(req, res, next) {

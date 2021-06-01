@@ -4,6 +4,7 @@ import userModel from '../users/userModel.js';
 import { ALL_TASK_STATUSES, ALL_TASK_PRIORITIES } from '../_common/constants.js';
 
 const { Schema } = mongoose;
+const { ObjectId } = mongoose;
 
 const taskSchema = new Schema({
     createdAt: Number,

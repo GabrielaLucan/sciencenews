@@ -1,5 +1,5 @@
 import Event from './eventModel.js';
-import Registration from './registrationModel';
+import Registration from './registrationModel.js';
 
 export async function listEvents() {
     return Event.find({}).exec();
