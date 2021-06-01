@@ -1,2 +1,2 @@
 # sciencenews
-Dissertation project
+Dissertation project - Science Events Management Platform

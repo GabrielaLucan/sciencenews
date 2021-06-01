@@ -1,0 +1,37 @@
+{
+  "name": "sciencenews",
+  "version": "1.0.0",
+  "description": "Dissertation project - Science Events Management Platform",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GabrielaLucan/sciencenews.git"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GabrielaLucan/sciencenews/issues"
+  },
+  "homepage": "https://github.com/GabrielaLucan/sciencenews#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.0.0",
+    "express-jwt-authz": "^2.4.1",
+    "jsonwebtoken": "^8.4.0",
+    "lodash": "^4.17.21",
+    "mongoose": "^5.11.11",
+    "nodemon": "^2.0.7",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "passport-local": "^1.0.0",
+    "validatorjs": "^3.22.1"
+  }
+}
